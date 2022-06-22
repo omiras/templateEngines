@@ -30,4 +30,7 @@ Crea el fichero about.pug y complétalo con información similar a index.ejs
 ### Ejercicio 3
 Crea el fichero includes/navigation.pug. Incluye este "parcial" en las páginas de index y about, para que en ambas se vea el menú de navegación
 
+## Recursos
+
+[Cómo usar PUG](https://expressjs.com/es/guide/using-template-engines.html)
 
