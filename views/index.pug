@@ -1,0 +1,13 @@
+include includes/header.pug
+    title Página de Index
+body
+    h1.color-fondo#titulo Bienvenido a Pug!
+    p Me llamo #{nombre}
+    p Tengo #{edad} años
+    case amigos
+        when 0
+            p No tienes amigos!
+        default
+            p Tienes #{amigos} amigos!
+    each url in urls
+        img(src=url)

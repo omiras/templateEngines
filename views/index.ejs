@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Plantillas EJS</title>
+</head>
+<body>
+    <%- include('includes/navigation.ejs') %> 
+    <h1 class="color-fondo">Plantillas EJS</h1>
+    <p>Hola, me llamo <%= nombre %></p>
+    <% if (amigos==0) { %> 
+        <p>No tienes amigos!</p>
+    <% } else { %> 
+        <p>Tienes <%= amigos %> amigos</p>
+    <% } %> 
+
+    <% urls.forEach( (siguienteFoto) => { %> 
+        <img src="<%= siguienteFoto %>" >
+    <% }) %>
+      
+</body>
+</html>
