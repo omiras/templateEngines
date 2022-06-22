@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
         nombre: "Loki",
         edad: 1,
         amigos: 2,
-        urls: ['https://i.picsum.photos/id/237/200/200.jpg', 'https://i.picsum.photos/id/200/200/200.jpg', 'https://i.picsum.photos/id/1062/200/200.jpg']
+        urls: ['https://images.theconversation.com/files/443350/original/file-20220131-15-1ndq1m6.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C3354%2C2464&q=45&auto=format&w=926&fit=clip', 'https://i.insider.com/61d1c0e2aa741500193b2d18?width=700']
     });
 });
 
