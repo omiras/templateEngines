@@ -1,5 +1,7 @@
 # Uso de plantillas PUG
 
+[Documentación](https://github.com/pugjs/pug)
+
 ## Instrucciones
 
 Instala todoas las dependencias del proyecto. Recuerda que esto SOLO hay que hacerlo una vez
